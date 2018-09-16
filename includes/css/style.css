@@ -215,9 +215,9 @@ main{
 .sidebar__right--content{
  padding-top: 1rem;   
 }
-.sidebar__right--content ul{
-    list-style: none;
-    font-size: 1.6rem;
+.sidebar__right--content>ul>li{
+    list-style-type: none;
+    font-size: 2rem;
 }
 
 @media only screen and (max-width: 56.25em) {
@@ -267,6 +267,10 @@ footer{
 .footer-2 ul{
     list-style: none;
     margin-top: 2rem;
+}
+.footer-2>ul>li{
+    font-size: 2rem;
+    list-style-type: none;
 }
 .footer--4{
     font-size: 1.5rem;
